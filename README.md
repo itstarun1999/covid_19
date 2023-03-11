@@ -1,15 +1,41 @@
 
-# Covid 19 analysis
+## COVID-19 Project
+ This project is focused on predicting the likelihood of an individual being diagnosed with COVID-19 based on various demographic, health, and behavioral factors. The project utilizes three different machine learning algorithms: Decision Tree, Random Forest, and Logistic Regression. The dataset used in this project contains information on individuals who have been diagnosed with COVID-19, including their demographic information and health status.
+## Dataset
+The dataset used in this project includes the following columns:
 
-In this project we are finding the factors of patient dying by covid 
-19
-EDA
-Feature Engineering
-Model Selection and Model Evolution
-I have used 3 models here : 
--Logistic Regression 
--Decision Tree 
+#cdc_case_earliest_dt: The earliest date when the case was reported to the Centers for Disease Control and Prevention (CDC).
+
+#cdc_report_dt: The date when the case was reported to the CDC. 
+
+#pos_spec_dt: The date when the specimen was collected for laboratory testing.
+
+#onset_dt: The date when the symptoms of COVID-19 started.
+
+#current_status: The current status of the case (confirmed, probable, suspected, or not reported).
+
+#sex: The gender of the individual.
+
+#age_group: The age group of the individual.
+
+#race_ethnicity_combined: The race and ethnicity of the individual.
+
+#hosp_yn: Whether the individual was hospitalized or not.
+
+#icu_yn: Whether the individual was admitted to an ICU or not.
+
+#death_yn: Whether the individual died or not.
+
+#medcond_yn: Whether the individual had any underlying medical condition or not.
+## Machine Learning Algorithms
+I have used 3 models here : -Logistic Regression -Decision Tree 
 -Random Forest
+## Random Forest
+Random Forest is an ensemble algorithm that works by constructing multiple Decision Trees and then aggregating the results to make a final prediction. This algorithm helps to reduce the risk of overfitting and improves the accuracy of the prediction. In this project, the Random Forest algorithm was used to build a model to predict the likelihood of an individual being diagnosed with COVID-19.
+## Logistic Regression
+Logistic Regression is a popular algorithm used for binary classification problems. It works by fitting a logistic curve to the data, which represents the probability of the positive class given the input features. In this project, the Logistic Regression algorithm was used to build a model to predict the likelihood of an individual being diagnosed with COVID-19.
+## Conclusion
+The COVID-19 Machine Learning Project utilized three different machine learning algorithms to predict the likelihood of an individual being diagnosed with COVID-19 based on various demographic, health, and behavioral factors. The project demonstrated the effectiveness of machine learning algorithms in predicting health outcomes based on real-world data. The project can be extended further by incorporating more features, using more advanced machine learning algorithms, and optimizing the hyperparameters of the models.
 
 
 ## Badges
