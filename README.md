@@ -1,6 +1,7 @@
-
-
 ## COVID-19 Project
+
+![image](https://user-images.githubusercontent.com/111660500/224510350-63a06535-2bd1-4f34-a18c-378a26307c37.png)
+
  This project is focused on predicting the likelihood of an individual being diagnosed with COVID-19 based on various demographic, health, and behavioral factors. The project utilizes three different machine learning algorithms: Decision Tree, Random Forest, and Logistic Regression. The dataset used in this project contains information on individuals who have been diagnosed with COVID-19, including their demographic information and health status.
 ## Dataset
 The dataset used in this project includes the following columns:
@@ -37,6 +38,10 @@ Random Forest is an ensemble algorithm that works by constructing multiple Decis
 Logistic Regression is a popular algorithm used for binary classification problems. It works by fitting a logistic curve to the data, which represents the probability of the positive class given the input features. In this project, the Logistic Regression algorithm was used to build a model to predict the likelihood of an individual being diagnosed with COVID-19.
 ## Results
 After building and training the three machine learning models on the COVID-19 dataset, we compared their performance to determine which model was the best. The Random Forest model achieved the highest accuracy of all three models, with an accuracy of 89%. The Decision Tree model achieved an accuracy of 89%, and the Logistic Regression model achieved an accuracy of 88%. Therefore, we concluded that the Random Forest model was the best model for predicting the likelihood of an individual being diagnosed with COVID-19 based on the given dataset.
+
+![image](https://user-images.githubusercontent.com/111660500/224510463-0879ff5f-d736-4982-a8b3-d4a6bcb4e9a0.png)
+![image](https://user-images.githubusercontent.com/111660500/224510534-56b7e0b6-a995-4825-b4d1-83fc921cbaaf.png)
+![image](https://user-images.githubusercontent.com/111660500/224510582-1854e841-7a41-4ff5-8266-6e612a6ac1c7.png)
 ## Conclusion
 The COVID-19 Machine Learning Project utilized three different machine learning algorithms to predict the likelihood of an individual being diagnosed with COVID-19 based on various demographic, health, and behavioral factors. The project demonstrated the effectiveness of machine learning algorithms in predicting health outcomes based on real-world data. The project can be extended further by incorporating more features, using more advanced machine learning algorithms, and optimizing the hyperparameters of the models. Overall, the Random Forest algorithm was found to be the most accurate in predicting the likelihood of an individual being diagnosed with COVID-19.
 
