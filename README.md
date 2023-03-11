@@ -1,32 +1,33 @@
 
+
 ## COVID-19 Project
  This project is focused on predicting the likelihood of an individual being diagnosed with COVID-19 based on various demographic, health, and behavioral factors. The project utilizes three different machine learning algorithms: Decision Tree, Random Forest, and Logistic Regression. The dataset used in this project contains information on individuals who have been diagnosed with COVID-19, including their demographic information and health status.
 ## Dataset
 The dataset used in this project includes the following columns:
 
-#cdc_case_earliest_dt: The earliest date when the case was reported to the Centers for Disease Control and Prevention (CDC).
+cdc_case_earliest_dt: The earliest date when the case was reported to the Centers for Disease Control and Prevention (CDC).
 
-#cdc_report_dt: The date when the case was reported to the CDC. 
+cdc_report_dt: The date when the case was reported to the CDC. 
 
-#pos_spec_dt: The date when the specimen was collected for laboratory testing.
+pos_spec_dt: The date when the specimen was collected for laboratory testing.
 
-#onset_dt: The date when the symptoms of COVID-19 started.
+onset_dt: The date when the symptoms of COVID-19 started.
 
-#current_status: The current status of the case (confirmed, probable, suspected, or not reported).
+current_status: The current status of the case (confirmed, probable, suspected, or not reported).
 
-#sex: The gender of the individual.
+sex: The gender of the individual.
 
-#age_group: The age group of the individual.
+age_group: The age group of the individual.
 
-#race_ethnicity_combined: The race and ethnicity of the individual.
+race_ethnicity_combined: The race and ethnicity of the individual.
 
-#hosp_yn: Whether the individual was hospitalized or not.
+hosp_yn: Whether the individual was hospitalized or not.
 
-#icu_yn: Whether the individual was admitted to an ICU or not.
+icu_yn: Whether the individual was admitted to an ICU or not.
 
-#death_yn: Whether the individual died or not.
+death_yn: Whether the individual died or not.
 
-#medcond_yn: Whether the individual had any underlying medical condition or not.
+medcond_yn: Whether the individual had any underlying medical condition or not.
 ## Machine Learning Algorithms
 I have used 3 models here : -Logistic Regression -Decision Tree 
 -Random Forest
@@ -34,8 +35,10 @@ I have used 3 models here : -Logistic Regression -Decision Tree
 Random Forest is an ensemble algorithm that works by constructing multiple Decision Trees and then aggregating the results to make a final prediction. This algorithm helps to reduce the risk of overfitting and improves the accuracy of the prediction. In this project, the Random Forest algorithm was used to build a model to predict the likelihood of an individual being diagnosed with COVID-19.
 ## Logistic Regression
 Logistic Regression is a popular algorithm used for binary classification problems. It works by fitting a logistic curve to the data, which represents the probability of the positive class given the input features. In this project, the Logistic Regression algorithm was used to build a model to predict the likelihood of an individual being diagnosed with COVID-19.
+## Results
+After building and training the three machine learning models on the COVID-19 dataset, we compared their performance to determine which model was the best. The Random Forest model achieved the highest accuracy of all three models, with an accuracy of 89%. The Decision Tree model achieved an accuracy of 89%, and the Logistic Regression model achieved an accuracy of 88%. Therefore, we concluded that the Random Forest model was the best model for predicting the likelihood of an individual being diagnosed with COVID-19 based on the given dataset.
 ## Conclusion
-The COVID-19 Machine Learning Project utilized three different machine learning algorithms to predict the likelihood of an individual being diagnosed with COVID-19 based on various demographic, health, and behavioral factors. The project demonstrated the effectiveness of machine learning algorithms in predicting health outcomes based on real-world data. The project can be extended further by incorporating more features, using more advanced machine learning algorithms, and optimizing the hyperparameters of the models.
+The COVID-19 Machine Learning Project utilized three different machine learning algorithms to predict the likelihood of an individual being diagnosed with COVID-19 based on various demographic, health, and behavioral factors. The project demonstrated the effectiveness of machine learning algorithms in predicting health outcomes based on real-world data. The project can be extended further by incorporating more features, using more advanced machine learning algorithms, and optimizing the hyperparameters of the models. Overall, the Random Forest algorithm was found to be the most accurate in predicting the likelihood of an individual being diagnosed with COVID-19.
 
 
 ## Badges
